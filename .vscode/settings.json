@@ -1,5 +1,6 @@
 {
-  "eslint.experimental.useFlatConfig": true,
+  // This is currently turned off so VSCode can use the .eslintrc.yml file instead
+  "eslint.experimental.useFlatConfig": false,
   "[javascript]": {
     "editor.defaultFormatter": "dbaeumer.vscode-eslint",
     "editor.formatOnSave": true,

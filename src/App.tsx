@@ -1,7 +1,7 @@
-import React from 'react';
-import logo from './logo.svg';
+import React from 'react'
+import logo from './logo.svg'
 import './util/locales/config'
-import './App.css';
+import './App.css'
 
 import LegalTerms from './components/LegalTerms'
 
@@ -27,7 +27,7 @@ function App() {
 
       <LegalTerms />
     </div>
-  );
+  )
 }
 
-export default App;
+export default App

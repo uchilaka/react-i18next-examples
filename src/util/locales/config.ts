@@ -1,13 +1,13 @@
-import { initReactI18next } from 'react-i18next';
-import i18next from 'i18next';
+import { initReactI18next } from 'react-i18next'
+import i18next from 'i18next'
 
-import translations from './en/translations.json';
+import translations from './en/translations.json'
 
 const resources = {
   translations
 }
 
-const defaultNS = 'translations';
+const defaultNS = 'translations'
 
 i18next.use(initReactI18next).init({
   lng: 'en',
@@ -15,4 +15,4 @@ i18next.use(initReactI18next).init({
     en: resources
   },
   defaultNS
-});
+})

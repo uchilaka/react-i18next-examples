@@ -1,8 +1,8 @@
 import React from 'react'
 // import ReactDOM from 'react-dom/client'
-import { useTranslation, Trans } from 'react-i18next';
+import { useTranslation, Trans } from 'react-i18next'
 
-import ResourceLink, { IResourceLink } from './ResourceLink';
+import ResourceLink, { IResourceLink } from './ResourceLink'
 
 export default function LegalTerms() {
   const { t } = useTranslation()
@@ -13,7 +13,7 @@ export default function LegalTerms() {
     label: t('Terms of Service'), 
     url: 'https://actblue.com/#/not/a/real/terms-of-use', 
     target: '_blank' 
-  };
+  }
   /**
    * TODO: Change 👇🏾 to the ACTUAL link for the Privacy Policy
    */
@@ -21,7 +21,7 @@ export default function LegalTerms() {
     label: t('Privacy Policy'), 
     url: 'https://actblue.com/#/not/a/real/privacy-policy', 
     target: '_blank' 
-  };
+  }
 
   return (
     <>
@@ -36,5 +36,5 @@ export default function LegalTerms() {
         <ResourceLink link={privacyPolicy} />. You must be at least 18 years old to use ActBlue.
       </Trans>    
     </>
-  );
+  )
 }
