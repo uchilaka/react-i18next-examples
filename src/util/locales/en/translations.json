@@ -1,7 +1,8 @@
 {
+  "Company Name": "🍨 Ice Cream Inc.",
   "Terms of Service": "✨ Terms of Service",
   "Privacy Policy": "✨ Privacy Policy",
   "components": {
-    "LegalTerms": "✨ By continuing, you agree to ActBlue’s <LinkToTerms /> and acknowledge you’ve read our <LinkToPrivacyPolicy />. You must be at least 18 years old to use ActBlue."
+    "LegalTerms": "✨ By continuing, you agree to <CompanyName />’s <LinkToTerms /> and acknowledge you’ve read our <LinkToPrivacyPolicy />. You must be at least 18 years old to use <CompanyName />."
   }
 }

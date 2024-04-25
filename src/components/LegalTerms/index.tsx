@@ -29,11 +29,12 @@ export default function LegalTerms() {
         t={t}
         i18nKey="components.LegalTerms" 
         components={{
+          CompanyName: <span>{t('Company Name')}</span>,
           LinkToTerms: <ResourceLink link={termsOfUse} />,
           LinkToPrivacyPolicy: <ResourceLink link={privacyPolicy} />
         }}>
-        By continuing, you agree to ActBlue’s <ResourceLink link={termsOfUse} /> and acknowledge you’ve read our{' '}
-        <ResourceLink link={privacyPolicy} />. You must be at least 18 years old to use ActBlue.
+        By continuing, you agree to &lt;Company Name&rt;’s <ResourceLink link={termsOfUse} /> and acknowledge you’ve read our{' '}
+        <ResourceLink link={privacyPolicy} />. You must be at least 18 years old to use &lt;Company Name /&rt;.
       </Trans>    
     </>
   )
