@@ -11,7 +11,7 @@ export default function LegalTerms() {
    */
   const termsOfUse: IResourceLink = { 
     label: t('Terms of Service'), 
-    url: 'https://actblue.com/#/not/a/real/terms-of-use', 
+    url: 'https://icecreaminc.com/#/not/a/real/terms-of-use', 
     target: '_blank' 
   }
   /**
@@ -19,7 +19,7 @@ export default function LegalTerms() {
    */
   const privacyPolicy: IResourceLink = { 
     label: t('Privacy Policy'), 
-    url: 'https://actblue.com/#/not/a/real/privacy-policy', 
+    url: 'https://icecreaminc.com/#/not/a/real/privacy-policy', 
     target: '_blank' 
   }
 

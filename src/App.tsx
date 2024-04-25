@@ -23,9 +23,9 @@ function App() {
         </a>
       </header>
 
-      <hr />
-
-      <LegalTerms />
+      <footer>
+        <LegalTerms />
+      </footer>
     </div>
   )
 }
