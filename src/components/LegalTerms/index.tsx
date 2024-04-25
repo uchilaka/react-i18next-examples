@@ -1,5 +1,4 @@
 import React from 'react'
-// import ReactDOM from 'react-dom/client'
 import { useTranslation, Trans } from 'react-i18next'
 
 import ResourceLink, { IResourceLink } from './ResourceLink'
@@ -26,7 +25,6 @@ export default function LegalTerms() {
   return (
     <>
       <Trans
-        t={t}
         i18nKey="components.LegalTerms" 
         components={{
           CompanyName: <span>{t('Company Name')}</span>,
