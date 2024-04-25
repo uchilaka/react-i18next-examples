@@ -6,8 +6,6 @@ This demo was setup to implement locale translation & interpolation with the `re
 
 You can review these to get started - or skip them all and just look at the project code 😉. Tip: start [here](https://github.com/uchilaka/react-i18next-examples/blob/main/src/components/LegalTerms/index.tsx#L27-L37).
 
-> I found thinking about how they could all come together to `do the thing` that I needed in my project and found the best way to groc it for myself was to get in there. So I did... then thought I'd share so perhaps you don't have to 🤞🏾
-
 - [Quick start](https://react.i18next.com/guides/quick-start)
 - [Interpolation](https://www.i18next.com/translation-function/interpolation)
 - [Trans Component](https://react.i18next.com/latest/trans-component)
