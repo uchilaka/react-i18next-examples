@@ -1,6 +1,9 @@
 import React from 'react';
 import logo from './logo.svg';
+import './util/locales/config'
 import './App.css';
+
+import LegalTerms from './components/LegalTerms'
 
 function App() {
   return (
@@ -19,6 +22,10 @@ function App() {
           Learn React
         </a>
       </header>
+
+      <hr />
+
+      <LegalTerms />
     </div>
   );
 }
