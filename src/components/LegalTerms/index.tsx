@@ -25,20 +25,16 @@ export default function LegalTerms() {
 
   return (
     <>
-      <p>
-        <Trans
-          t={t}
-          i18nKey="components.LegalTerms" 
-          components={{
-            LinkToTerms: <ResourceLink link={termsOfUse} />,
-            LinkToPrivacyPolicy: <ResourceLink link={privacyPolicy} />
-          }}
-          linkToTerms={<ResourceLink link={termsOfUse} />} 
-          linkToPrivacyPolicy={<ResourceLink link={privacyPolicy} />}>
-          By continuing, you agree to ActBlue’s <ResourceLink link={termsOfUse} /> and acknowledge you’ve read our{' '}
-          <ResourceLink link={privacyPolicy} />. You must be at least 18 years old to use ActBlue.
-        </Trans>
-      </p>
+      <Trans
+        t={t}
+        i18nKey="components.LegalTerms" 
+        components={{
+          LinkToTerms: <ResourceLink link={termsOfUse} />,
+          LinkToPrivacyPolicy: <ResourceLink link={privacyPolicy} />
+        }}>
+        By continuing, you agree to ActBlue’s <ResourceLink link={termsOfUse} /> and acknowledge you’ve read our{' '}
+        <ResourceLink link={privacyPolicy} />. You must be at least 18 years old to use ActBlue.
+      </Trans>    
     </>
   );
 }
